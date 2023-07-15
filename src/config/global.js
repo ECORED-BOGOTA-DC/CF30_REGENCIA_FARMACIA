@@ -1,19 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Exhibición de los productos farmacéuticos',
+    descripcionCurso:
+      'En este componente formativo se abordan los conocimientos de la competencia Lanzar la promoción comercial según objetivos y herramientas promocionales para que los aprendices aprendan las herramientas necesarias para diseñar las estrategias de mercadeo y venta de los productos farmacéuticos teniendo presente las características de estos y la normatividad legal vigente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -31,28 +23,56 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Productos y servicios',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Prestación de servicios en la farmacia',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'El entorno exterior del establecimiento',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Promoción de productos y servicios',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Lectores de código de barras',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Estibas',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistemas de información',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Utilidad de los sistemas de información de marketing',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipos de datos en el SIM',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -84,11 +104,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -102,32 +117,91 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Productos y servicios',
+      referencia:
+        'De la fuente, L. (2012). De la A a la Z- <em>En la gestión de la oficina de farmacia</em>.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo1_CF030_De_la_A_a_la_Z.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Promoción de productos y servicios',
+      referencia:
+        'Farmaniacos, C. (2021). <em>Promoción y Publicidad Farmacéutica con Elvis Chuco _ Parte 1</em> (Video). YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=w_9jyk2ALrE&ab_channel=ComunidadFarmaniacoso',
+    },
+    {
+      tema: 'Promoción de productos y servicios',
+      referencia:
+        'Depot, M. (2020). <em>¡Aumenta las ventas de tu farmacia con estas estrategias!</em> (Video). YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=w_9jyk2ALrE&ab_channel=ComunidadFarmaniacoso',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Competitivo',
+      significado:
+        'que es capaz de competir con otros que aspiran a un mismo objetivo o a la superioridad en algo.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Inversión fracasada',
+      significado:
+        'emplear una cantidad de dinero en un proyecto o negocio para conseguir ganancias y no producir el resultado deseado o previsto.',
+    },
+    {
+      termino: '<em>Marketing</em>',
+      significado:
+        'conjunto de técnicas y estudios que tienen como objeto mejorar la comercialización de un producto.',
+    },
+    {
+      termino: 'Nutrición balanceada',
+      significado:
+        'llevar a cabo una dieta sana, variada y equilibrada, es decir, consiste en consumir alimentos de calidad en las cantidades adecuadas.',
+    },
+    {
+      termino: '<em>Off line</em>',
+      significado:
+        'término empleado para hacer referencia a todo aquello que tiene lugar fuera de Internet, cuando no se está conectado a la red.',
+    },
+    {
+      termino: '<em>On line</em>',
+      significado:
+        'que se realiza a través de internet o de otra red de datos.',
+    },
+    {
+      termino: 'Patologías crónicas',
+      significado:
+        'son enfermedades de larga duración y por lo general de progresión lenta.',
+    },
+    {
+      termino: 'Productos OTC',
+      significado:
+        'productos que para su venta no requieren de prescripción médica.',
+    },
+    {
+      termino: 'SIM',
+      significado: 'Sistema de Información de Marketing.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arras, F. (2018). <em>Exposición de productos en la oficina de farmacia</em>.',
+      link: 'https://www.arrasfarma.com/blog/exposicion-productos-farmacia/',
+    },
+    {
+      referencia:
+        'De la Fuente, L., (2021). <em>Importancia del desarrollo de servicios para la farmacia</em>. Elsevier.',
+      link:
+        'https://www.elsevier.es/es-revista-farmacia-profesional-3-articulo-importancia-del-desarrollo-servicios-farmacia-X0213932417620568',
+    },
+    {
+      referencia:
+        'Tecnologías información. (s. f.). <em>Sistemas de información de mercadotecnia</em>.',
+      link: 'https://www.tecnologias-informacion.com/mercadotecnia.html',
     },
   ],
   creditos: [
@@ -136,14 +210,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Nombre completo',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -153,8 +226,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -163,27 +235,18 @@ export default {
       autores: [
         {
           nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          cargo: 'Diseñador web',
+          centro: 'Nombre centro de formación',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Nombre centro de formación',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -191,22 +254,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Nombre validador',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Nombre centro formación',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Nombre validador',
+          cargo: 'Validación de contenidos accesibles',
+          centro: 'Nombre centro formación',
         },
       ],
     },
