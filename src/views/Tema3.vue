@@ -22,9 +22,9 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_3_1 3.1 Utilidad de los sistemas de información de marketing
+      h2#t_3_1 3.1 Utilidad de los sistemas de información de #[em marketing]
     
-    p(data-aos="zoom-in") El SIM son útiles porque permiten:
+    p(data-aos="zoom-in") Los SIM son útiles porque permiten:
 
     ul.fa-ul.mt-4
       li.mb-2(data-aos="zoom-in-left")
@@ -50,7 +50,7 @@
         | La actualización de información constante.
       li.mb-2(data-aos="zoom-in-left")
         i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-        | Separar los clientes y los leads.
+        | Separar los clientes y los #[em leads].
       li(data-aos="zoom-in-left")
         i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
         | Identificar de manera oportuna los problemas, las oportunidades y las tendencias.
@@ -60,7 +60,7 @@
     .titulo-segundo
       h2#t_3_2 3.2 Tipos de datos en el SIM
     
-    p(data-aos="zoom-in") El SIM es un sistema con múltiples funciones, por lo cual tienen la capacidad de manejar diferentes tipos de datos que se clasifican de la siguiente manera:
+    p(data-aos="zoom-in") El SIM es un sistema con múltiples funciones, por lo cual tiene la capacidad de manejar diferentes tipos de datos que se clasifican de la siguiente manera:
 
     .row.mt-5
       .col-lg.mb-4.mb-lg-0.p-lg-0
@@ -74,7 +74,7 @@
           figure.text-center
             img(src="@/assets/curso/tema3/3.png" data-aos="zoom-in-up" style="display:inline;max-width:130px;")
           h3.mt-5(data-aos="zoom-in") Datos internos del establecimiento
-          p.mt-4(data-aos="zoom-in") En este aspecto el SIM aporta la información de ventas y actividades de marketing que, unido con las bases de datos, permite realizar informes.
+          p.mt-4(data-aos="zoom-in") En este aspecto el SIM aporta la información de ventas y actividades de #[em marketing] que, junto con las bases de datos, permite realizar informes.
           p.mt-4(data-aos="zoom-in") También el SIM integrado con plataformas internas de comunicaciones dentro del establecimiento, aporta beneficios como el acceso a ciertas bases de datos departamentales.
       .col-lg.mb-4.mb-lg-0.p-lg-0
         .h-100.p-4.p-md-5.text-center.text-white(style="background-color:#00BCD4;border-radius:0px 15px 15px 0px;")
@@ -88,11 +88,11 @@
               | Páginas web de establecimientos competidores.
             li.text-start(data-aos="zoom-in")
               i.fas.fa-atom.fa-li(style="color:#fff;")
-              | Publicaciones comercialmente de la industria.
+              | Publicaciones comerciales de la industria.
             li.text-start(data-aos="zoom-in")
               i.fas.fa-atom.fa-li(style="color:#fff;")
               | Anotaciones del mercado que hayan realizado expertos en el medio.
-          p.mt-3(data-aos="zoom-in") Otra forma de aplicar la inteligencia de marketing es a través de diálogos con clientes potenciales y distribuidores.
+          p.mt-3(data-aos="zoom-in") Otra forma de aplicar la inteligencia de #[em marketing] es a través de diálogos con clientes potenciales y distribuidores.
 
 
 

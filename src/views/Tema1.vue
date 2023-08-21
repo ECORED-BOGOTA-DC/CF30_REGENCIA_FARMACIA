@@ -7,11 +7,11 @@
         span 1
       h1 Productos y servicios
     
-    p(data-aos="zoom-in") Los establecimientos farmacéuticos han evolucionado debido a la alta competencia y a la incursión de las ventas por internet. Hoy en día no solo se encargan de la dispensación, sino también de vender, por lo que la figura de paciente ha cambiado a paciente-cliente, integrando la información otorgada por un experto farmacéutico (dispensación), con otros servicios dando así valor añadido a las peticiones de los clientes. 
+    p(data-aos="zoom-in") Los establecimientos farmacéuticos han evolucionado debido a la alta competencia y a la incursión de las ventas por internet. Hoy en día no solo se encargan de la dispensación, sino también de vender, por lo que la figura de paciente ha cambiado a paciente-cliente, integrando la información otorgada por un experto farmacéutico (dispensación) con otros servicios, dando así valor añadido a las peticiones de los clientes. 
 
     .col-xl-8.m-auto.mt-5.col-lg-10
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
-        p.mb-0(data-aos="zoom-in") Los farmacéuticos son expertos en los temas relacionados con los productos y los servicios que legalmente están habilitados a ofrecer y lograr cumplir con las demandas el mercado actual y cambiar el modelo tradicional por el modelo presente, es necesario contar con el apoyo y la asesoría de un experto en materia de mercado y captor de las necesidades de los clientes.
+        p.mb-0(data-aos="zoom-in") Los farmacéuticos son expertos en los temas relacionados con los productos y los servicios que legalmente están habilitados a ofrecer y para lograr cumplir con las demandas del mercado actual y cambiar el modelo tradicional por el modelo presente, es necesario contar con el apoyo y la asesoría de un experto en materia de mercado y captor de las necesidades de los clientes.
     
     Separador.mt-5
 
@@ -24,7 +24,7 @@
           img(src="@/assets/curso/tema1/1.png" data-aos="zoom-in-right")
       .col-md-6(style="place-self:center;")
         p(data-aos="zoom-in-left") Las farmacias y farmacias-droguerías que, además de la dispensación de los medicamentos y dispositivos médicos ofrecen otros servicios, son establecimientos que tienen la visión puesta en el cliente que está en la búsqueda integral de su bienestar y de conocer su estado de salud para cuidarla y fortalecerla.
-        p.mt-4(data-aos="zoom-in-left") Hoy en día, esta clase de clientes son los que mueven el mercado, pues todo el tiempo están en la búsqueda de información online y establecimientos que les ofrezcan el mejor y completo servicio que ayude a cuidar su salud. 
+        p.mt-4(data-aos="zoom-in-left") Hoy en día, esta clase de clientes son los que mueven el mercado, pues todo el tiempo están en la búsqueda de información #[em online] y establecimientos que les ofrezcan el mejor y más completo servicio que ayude a cuidar su salud. 
     
     Separador.mt-5
 
@@ -34,16 +34,16 @@
     .row
       .col-lg-3.col-md-5.mb-4.mb-md-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/2.png" data-aos="zoom-in-right")
+          img(src="@/assets/curso/tema1/2.svg" data-aos="zoom-in-right")
       .col-lg-9.col-md-7(style="place-self:center;")
-        p(data-aos="zoom-in-left") En el momento de ofrecer servicios competentes es necesario identificar la clase de clientes que rodean la farmacia y que por ende acuden a ella, además de conocer los establecimientos que son directamente competencia, teniendo presente que todos los valores agregados deben estar enfocados en satisfacer las necesidades de los clientes.
+        p(data-aos="zoom-in-left") En el momento de ofrecer servicios competentes es necesario identificar la clase de clientes que rodean la farmacia y que por ende acuden a ella, además de conocer los establecimientos que son competencia directa, teniendo presente que todos los valores agregados deben estar enfocados en satisfacer las necesidades de los clientes.
         a.mt-4.boton.color-primario.indicador__container(@click="modal1 = true" data-aos="zoom-in")
           span.ps-4.pe-4.fw-bold Ejemplo
           .indicador--click(v-if="mostrarIndicador")
     
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
-        p.mb-0 Si la mayoría de las personas que rodean el establecimiento son adultos y adultos mayores, un servicio agregado seria brindar talleres sobre los riesgos que generan la automedicación (sobre todo en pacientes con patologías crónicas).
+        p.mb-0 Si la mayoría de las personas que rodean el establecimiento son adultos y adultos mayores, un valor agregado seria brindar talleres sobre los riesgos que genera la automedicación (sobre todo en pacientes con patologías crónicas).
 
     .col-xl-8.m-auto.mt-5.col-lg-10
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
@@ -54,7 +54,7 @@
         figure
           img(src="@/assets/curso/tema1/3.svg" data-aos="zoom-in-right")
       .col-lg-9.col-md-7(style="place-self:center;")
-        p(data-aos="zoom-in") Estar atentos al entorno en línea (on line), es indispensable, debido a que hoy en día es de gran afluencia la venta on line, a tal punto que gran parte de la publicidad y descuentos se lleva a cabo por este medio. Claro está que la estrategia competitiva en este modo de venta es ofrecer, en lo que la venta está en desventaja:
+        p(data-aos="zoom-in") Prestar atención al entorno en línea (#[em online]), es indispensable, debido a que hoy en día muchas ventas se realizan en línea, a tal punto que gran parte de la publicidad y descuentos se llevan a cabo por este medio. Claro está que la estrategia competitiva en este modo de venta es ofrecer, pero por otro lado encuentra en desventaja en los siguientes aspectos:
         ul.fa-ul.mt-4
           li.mb-2(data-aos="zoom-in")
             i.fas.fa-check.fa-li(style="color:#00BCD4;")
@@ -83,7 +83,7 @@
             i.fas.fa-check.fa-li(style="color:#00BCD4;")
             | Técnicos en servicios farmacéuticos.
 
-    p.mt-5(data-aos="zoom-in") En el momento de ofrecer un servicio extra como toma de presión arterial o educación nutricional, estos deben ser brindados por una enfermera y un nutricionista, respectivamente, y así sucesivamente.
+    p.mt-5(data-aos="zoom-in") En el momento de ofrecer un servicio extra como toma de presión arterial o educación nutricional, estos deben ser brindados por un(a) enfermero(a) y un(a) nutricionista, respectivamente, y así sucesivamente.
 
     h4.mt-5(data-aos="zoom-in") Recursos en general
     
@@ -92,7 +92,7 @@
         figure
           img(src="@/assets/curso/tema1/5.svg" data-aos="zoom-in-right")
       .col-lg-9.col-md-7(style="place-self:center;")
-        p(data-aos="zoom-in") En el momento de establecer servicios extras en la farmacia se debe tener presente que estos ameritan una inversión en tiempo y en dinero y que de entrada no es muy recomendable cobrar por ellos a los clientes, ya que ofrecerlos gratuitamente, como valor agregado o como un regalo al cliente por fidelización, son un gancho clave para la aceptación de los servicios, lo que se verá reflejado en la cantidad de personas que ingresan al establecimiento y por consiguiente en las ventas. Por lo cual, la implementación de servicios en la farmacia no se debe considerar como un gasto, sino una inversión positiva.
+        p(data-aos="zoom-in") En el momento de establecer servicios extras en la farmacia se debe tener presente que estos requieren una inversión en tiempo y en dinero y que de entrada no es muy recomendable cobrar por ellos a los clientes, ya que ofrecerlos gratuitamente, como valor agregado o como un regalo al cliente por fidelización, es un gancho clave para la aceptación de los servicios, lo que se verá reflejado en la cantidad de personas que ingresan al establecimiento y por consiguiente en las ventas. Por lo cual, la implementación de servicios en la farmacia no se debe considerar como un gasto, sino como una inversión positiva.
     
     h4.mt-5(data-aos="zoom-in") Oferta de servicios
     

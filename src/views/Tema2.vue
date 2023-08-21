@@ -25,14 +25,14 @@
     
     .col-xl-98.m-auto.mt-5.col-lg-10
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
-        p.mb-0(data-aos="zoom-in") En un modelo de farmacia, cuando se decide realizar promoción de productos y servicios, no se debe hacer solo por vender, también se debe apuntar a satisfacer las necesidades de los clientes de tal manera que haya ganancia de parte y parte; para que una promoción sea exitosa, la farmacia o droguería debe comunicar de forma expansiva la misma, ya sea por carteles vistosos, por teléfono, volantes, entre otros.  
+        p.mb-0(data-aos="zoom-in") En un modelo de farmacia, cuando se decide realizar promoción de productos y servicios, no se debe hacer solo por vender, también se debe apuntar a satisfacer las necesidades de los clientes de tal manera que haya ganancia de parte y parte; para que una promoción sea exitosa, la farmacia o droguería debe comunicar de forma expansiva la misma, ya sea por medio de carteles vistosos, por teléfono, volantes, entre otros.  
     
-    p.mt-5(data-aos="zoom-in") La promoción de los productos y servicios se pueden realizar de dos formas, desde el propio establecimiento y/o en línea, como se muestra a continuación:
+    p.mt-5(data-aos="zoom-in") La promoción de los productos y servicios se puede realizar de dos formas, desde el propio establecimiento o en línea, como se muestra a continuación:
 
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.col-lg-11.m-auto(titulo="El mueble de exhibición")
         .col-lg-7.col-md-6.mb-4.mb-md-0
-          p El mueble de exhibición o escaparate debe ser muy atractivo a la vista de los clientes. Por lo cual en el momento de poner uno se deben tener presente los siguientes factores:
+          p El mueble de exhibición o escaparate debe ser muy atractivo a la vista de los clientes. Por lo cual al momento de poner uno se deben tener presentes los siguientes factores:
           ul.fa-ul.mt-3
             li
               i.fas.fa-chevron-right.fa-li(style="color:#00223D;")
@@ -47,7 +47,7 @@
         .col-md-6.col-lg-5
           figure
             img(src='@/assets/curso/tema2/1.png')
-      .row.col-lg-11.m-auto(titulo="Posición de los productos en el interior")
+      .row.col-lg-11.m-auto(titulo="Posición de los productos")
         .col-lg-7.col-md-6.mb-4.mb-md-0
           p En todo establecimiento siempre se tienen dos puntos: los calientes y los fríos.
           ul.fa-ul.mt-3
@@ -61,9 +61,9 @@
           figure
             img(src='@/assets/curso/tema2/2.png')
     
-    h4.mt-5(data-aos="zoom-in") Exhibición de los productos como marketing de ventas farmacéutico
+    h4.mt-5(data-aos="zoom-in") Exhibición de los productos como #[em marketing] de ventas farmacéutico
 
-    p.mt-4(data-aos="zoom-in") La exhibición de los productos OTC, como pañales, cosméticos, multivitamínicos, aseo personal, entre otros, juega en las farmacias un papel importante como estrategia de marketing de venta, teniendo presente que hoy en día la figura de establecimiento de solo medicamentos ha cambiado por establecimiento que ofrece productos y servicios de bienestar general.
+    p.mt-4(data-aos="zoom-in") La exhibición de los productos OTC, como pañales, cosméticos, multivitamínicos, aseo personal, entre otros, juega en las farmacias un papel importante como estrategia de #[em marketing] de venta, teniendo presente que hoy en día la figura de establecimiento de solo medicamentos ha cambiado por establecimiento que ofrece productos y servicios de bienestar general.
     p.mt-4(data-aos="zoom-in") Es importante exhibir los productos para:
 
     .row.mt-5
@@ -104,7 +104,7 @@
       .tarjeta.color-acento-botones.p-4(titulo="<em>Marketing off line</em>" style="background-color:#D9F5F9;")
         h5 #[em Marketing off line]
         p.mt-4 Esta clase de promoción es la que se realiza dentro del establecimiento en un encuentro presencial entre el vendedor y el cliente. Los productos no se ofertan de manera deliberada, sino de acuerdo con una selección estratégica de clientes donde se tiene presente la necesidad de estos; y ello se logra mediante un pequeño cuestionario en medio de la conversación. 
-        p.mt-4 Es importante tener presente que todo el personal que labora en el establecimiento farmacéutico tiene que estar capacitado en los productos, empezando por los que se estén promocionando, ya que una persona sin conocimiento puede cometer errores como brindar información engañosa, omitir información importante u ofrecer un producto no acorde a la necesidad del cliente y por ende esto afectaría notablemente lograr los objetivos de venta. 
+        p.mt-4 Es importante tener presente que todo el personal que labora en el establecimiento farmacéutico tiene que estar capacitado en los productos, empezando por los que se estén promocionando, ya que una persona sin conocimiento puede cometer errores como brindar información engañosa, omitir información importante u ofrecer un producto no acorde a la necesidad del cliente y esto afectaría notablemente los objetivos de venta. 
         figure.mt-4
           img(src="@/assets/curso/tema2/8.png")
         .mt-4.text-center
@@ -113,8 +113,8 @@
             .indicador--click(v-if="mostrarIndicador2")
       .tarjeta.color-acento-botones.p-4(titulo="<em>Marketing online</em>" style="background-color:#D9F5F9;")
         h5 #[em Marketing online]
-        p.mt-4 Cada día las redes sociales tienen mayor fuerza como canal de comunicación, por lo que utilizar esta herramienta para promocionar los productos e impulsar las ventas es perfecta, pues tiene dualidad en función, ya que no solo complementa la promoción #[em off line], sino que también funciona por sí sola.
-        p.mt-4 En el momento de implementar el #[em marketing on line] se debe planificar muy bien el contenido que será expuesto allí, ya que debe ser contenido de calidad, llamativo y que no genere confusiones.
+        p.mt-4 Cada día las redes sociales tienen mayor fuerza como canal de comunicación, por lo que utilizar esta herramienta para promocionar los productos e impulsar las ventas es provechoso, pues tiene dualidad en función, ya que no solo complementa la promoción #[em off line], sino que también funciona por sí sola.
+        p.mt-4 En el momento de implementar el #[em marketing online] se debe planificar muy bien el contenido que será expuesto allí, ya que debe ser contenido de calidad, llamativo y que no genere confusiones.
         figure.mt-4
           img(src="@/assets/curso/tema2/10.png")
     
@@ -128,7 +128,7 @@
     
     h4.mt-5(data-aos="zoom-in") Reformas y cambios
     
-    p.mt-4(data-aos="zoom-in") Cuando se desea implementar la promoción de productos y servicios por lo general se deben realizar reformas y/o cambios al establecimiento que permitan lograr los objetivos.
+    p.mt-4(data-aos="zoom-in") Cuando se desea implementar la promoción de productos y servicios por lo general se deben realizar reformas o cambios al establecimiento que permitan lograr los objetivos.
     p.mt-4(data-aos="zoom-in") Hay lugares que permiten reformas de ampliación, pero otros que no; en ese último caso, es indispensable reorganizar el lugar de manera que se aprovechen todos los espacios, claro está, sin interrumpir el fácil acceso.
 
 
