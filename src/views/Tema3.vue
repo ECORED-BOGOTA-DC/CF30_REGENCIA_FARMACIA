@@ -10,7 +10,7 @@
     .row
       .col-lg-3.col-md-5.mb-4.mb-md-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/1.svg" data-aos="zoom-in-right")
+          img(src="@/assets/curso/tema3/1.svg" data-aos="zoom-in-right" alt="Imagen decorativa")
       .col-lg-9.col-md-7(style="place-self:center;")
         p(data-aos="zoom-in") Independientemente del tamaño del establecimiento farmacéutico, por control, rapidez y sencillez, es necesario sistematizar la información, debido a que manejar los datos de forma manual genera errores, desinformación, lentitud, entre muchos otros puntos negativos para las ventas.
         p.mt-4(data-aos="zoom-in") Gracias a los avances tecnológicos, hoy en día se cuenta con el Sistema de Información de #[em Marketing] (SIM) que evita pérdidas de tiempo y esfuerzo y permite gestionar, indagar y consignar, de qué manera y con qué personas se están formando relaciones o diálogos alrededor de un producto o una promoción.
@@ -66,20 +66,20 @@
       .col-lg.mb-4.mb-lg-0.p-lg-0
         .h-100.p-4.p-md-5.text-center.text-white(style="background-color:#7E5EE3;border-radius:15px 0px 0px 15px;")
           figure.text-center
-            img(src="@/assets/curso/tema3/2.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;")
+            img(src="@/assets/curso/tema3/2.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;" alt="Imagen decorativa")
           h3.mt-5(data-aos="zoom-in") Bases de datos adquiridas
           p.mt-4(data-aos="zoom-in") Esto se da cuando el establecimiento toma información de bases de datos otorgadas por alguna empresa o ente gubernamental.
       .col-lg.mb-4.mb-lg-0.p-lg-0
         .h-100.p-4.p-md-5.text-center.text-white(style="background-color:#FF9D00;")
           figure.text-center
-            img(src="@/assets/curso/tema3/3.png" data-aos="zoom-in-up" style="display:inline;max-width:130px;")
+            img(src="@/assets/curso/tema3/3.png" data-aos="zoom-in-up" style="display:inline;max-width:130px;" alt="Imagen decorativa")
           h3.mt-5(data-aos="zoom-in") Datos internos del establecimiento
           p.mt-4(data-aos="zoom-in") En este aspecto el SIM aporta la información de ventas y actividades de #[em marketing] que, junto con las bases de datos, permite realizar informes.
           p.mt-4(data-aos="zoom-in") También el SIM integrado con plataformas internas de comunicaciones dentro del establecimiento, aporta beneficios como el acceso a ciertas bases de datos departamentales.
       .col-lg.mb-4.mb-lg-0.p-lg-0
         .h-100.p-4.p-md-5.text-center.text-white(style="background-color:#00BCD4;border-radius:0px 15px 15px 0px;")
           figure.text-center
-            img(src="@/assets/curso/tema3/4.png" data-aos="zoom-in-up" style="display:inline;max-width:130px;")
+            img(src="@/assets/curso/tema3/4.png" data-aos="zoom-in-up" style="display:inline;max-width:130px;" alt="Imagen decorativa")
           h3.mt-5(data-aos="zoom-in") Inteligencia de #[em marketing]
           p.mt-4(data-aos="zoom-in") Desde este punto se accede a diferente información mediante la supervisión de:
           ul.fa-ul.mt-3

@@ -46,7 +46,7 @@
           p.mt-4 Aunque los establecimientos farmacéuticos manejan productos diferentes a los medicamentos, no dejan de ser lugares enfocados en la salud, por lo que están reglamentados normativamente; así que antes de realizar cualquier exhibición, se debe revisar muy bien la normatividad legal vigente para no incurrir en ilegalidad.
         .col-md-6.col-lg-5
           figure
-            img(src='@/assets/curso/tema2/1.png')
+            img(src='@/assets/curso/tema2/1.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Posición de los productos")
         .col-lg-7.col-md-6.mb-4.mb-md-0
           p En todo establecimiento siempre se tienen dos puntos: los calientes y los fríos.
@@ -59,7 +59,7 @@
               | Los fríos son esos puntos donde llega muy poca gente, por lo cual no se recomienda ubicar allí productos, sino utilizarlos para carteles, iluminación, entre otros.
         .col-md-6.col-lg-5
           figure
-            img(src='@/assets/curso/tema2/2.png')
+            img(src='@/assets/curso/tema2/2.png' alt="Imagen decorativa")
     
     h4.mt-5(data-aos="zoom-in") Exhibición de los productos como #[em marketing] de ventas farmacéutico
 
@@ -71,31 +71,31 @@
         .h-100.p-5(style="background-color:#F71C85;position:relative;border-radius:20px;" data-aos="zoom-in")
           div(style="position:absolute;right:-20px;top: auto;bottom: 25px")
             figure
-              img(src="@/assets/curso/tema2/3.svg" style="max-width:100%")
+              img(src="@/assets/curso/tema2/3.svg" style="max-width:100%" alt="Imagen decorativa")
           p.text-white.mb-0 Captar clientes
       .col-lg.mb-4.mb-lg-0.col-md-6
         .h-100.p-5(style="background-color:#FF9D00;position:relative;border-radius:20px;" data-aos="zoom-in")
           div(style="position:absolute;right:-20px;top: auto;bottom: 25px")
             figure
-              img(src="@/assets/curso/tema2/4.svg" style="max-width:100%")
+              img(src="@/assets/curso/tema2/4.svg" style="max-width:100%" alt="Imagen decorativa")
           p.text-white.mb-0 Dar a conocer el portafolio de productos.
       .col-lg.mb-4.mb-lg-0.col-md-6
         .h-100.p-5(style="background-color:#8CBCFA;position:relative;border-radius:20px;" data-aos="zoom-in")
           div(style="position:absolute;right:-20px;top: auto;bottom: 25px")
             figure
-              img(src="@/assets/curso/tema2/5.svg" style="max-width:100%")
+              img(src="@/assets/curso/tema2/5.svg" style="max-width:100%" alt="Imagen decorativa")
           p.text-white.mb-0 Rotar los productos poco o nada conocidos.
       .col-lg.mb-4.mb-lg-0.col-md-6
         .h-100.p-5(style="background-color:#7E5EE3;position:relative;border-radius:20px;" data-aos="zoom-in")
           div(style="position:absolute;right:-20px;top: auto;bottom: 25px")
             figure
-              img(src="@/assets/curso/tema2/6.svg" style="max-width:100%")
+              img(src="@/assets/curso/tema2/6.svg" style="max-width:100%" alt="Imagen decorativa")
           p.text-white.mb-0 Posicionar el establecimiento como referente de bienestar.
       .col-lg.mb-4.mb-lg-0.col-md-6
         .h-100.p-5(style="background-color:#2ED986;position:relative;border-radius:20px;" data-aos="zoom-in")
           div(style="position:absolute;right:-20px;top: auto;bottom:25px;")
             figure
-              img(src="@/assets/curso/tema2/7.svg" style="max-width: 100%")
+              img(src="@/assets/curso/tema2/7.svg" style="max-width: 100%" alt="Imagen decorativa")
           p.text-white.mb-0 Obtener más rentabilidad por ventas.
     
     p.mt-5(data-aos="zoom-in") Dos aspectos para tener en cuenta al momento de exhibir los productos son:
@@ -106,7 +106,7 @@
         p.mt-4 Esta clase de promoción es la que se realiza dentro del establecimiento en un encuentro presencial entre el vendedor y el cliente. Los productos no se ofertan de manera deliberada, sino de acuerdo con una selección estratégica de clientes donde se tiene presente la necesidad de estos; y ello se logra mediante un pequeño cuestionario en medio de la conversación. 
         p.mt-4 Es importante tener presente que todo el personal que labora en el establecimiento farmacéutico tiene que estar capacitado en los productos, empezando por los que se estén promocionando, ya que una persona sin conocimiento puede cometer errores como brindar información engañosa, omitir información importante u ofrecer un producto no acorde a la necesidad del cliente y esto afectaría notablemente los objetivos de venta. 
         figure.mt-4
-          img(src="@/assets/curso/tema2/8.png")
+          img(src="@/assets/curso/tema2/8.png" alt="Imagen decorativa")
         .mt-4.text-center
           a.boton.color-primario.indicador__container(@click="modal2 = true" data-aos="zoom-in")
             span.ps-4.pe-4.fw-bold Ejemplo
@@ -116,7 +116,7 @@
         p.mt-4 Cada día las redes sociales tienen mayor fuerza como canal de comunicación, por lo que utilizar esta herramienta para promocionar los productos e impulsar las ventas es provechoso, pues tiene dualidad en función, ya que no solo complementa la promoción #[em off line], sino que también funciona por sí sola.
         p.mt-4 En el momento de implementar el #[em marketing online] se debe planificar muy bien el contenido que será expuesto allí, ya que debe ser contenido de calidad, llamativo y que no genere confusiones.
         figure.mt-4
-          img(src="@/assets/curso/tema2/10.png")
+          img(src="@/assets/curso/tema2/10.png" alt="Imagen decorativa")
     
     
     ModalA(:abrir-modal.sync="modal2")
@@ -124,7 +124,7 @@
         h5 Ejemplo
         p.mt-1 Si llega un cliente averiguando por un suplemento dietario, es el momento preciso para que el vendedor aplique el cuestionario (es diabético, sufre de alguna enfermedad crónica, que medicamentos toma, entre otras) y, de acuerdo con las respuestas, pueda orientar de la mejor manera al cliente.
         figure.mt-2
-          img(src="@/assets/curso/tema2/9.png")
+          img(src="@/assets/curso/tema2/9.png" alt="Imagen decorativa")
     
     h4.mt-5(data-aos="zoom-in") Reformas y cambios
     
