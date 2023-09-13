@@ -264,6 +264,11 @@ export default {
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
+        {
+          nombre: 'José Gabriel Ortíz Abella',
+          cargo: 'Corrector de estilo',
+          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        },
       ],
     },
     {
