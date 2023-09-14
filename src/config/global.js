@@ -317,7 +317,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
