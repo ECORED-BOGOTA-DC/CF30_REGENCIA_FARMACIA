@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Exhibición de los productos farmacéuticos',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia "Lanzar la promoción comercial según objetivos y herramientas promocionales" para que los aprendices conozcan las herramientas necesarias para diseñar las estrategias de mercadeo y venta de los productos farmacéuticos teniendo presentes las características de estos y la normatividad legal vigente.',
+      'En este componente formativo se abordan los conocimientos relacionados con la promoción comercial, para que los aprendices conozcan las herramientas necesarias para diseñar las estrategias de mercadeo y venta de los productos farmacéuticos teniendo presentes las características de estos y la normatividad legal vigente',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -43,18 +43,6 @@ export default {
         numero: '2',
         titulo: 'Promoción de productos y servicios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Lectores de código de barras',
-            hash: 't_1_1',
-          },
-          {
-            numero: '1.2',
-            titulo: 'Estibas',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
