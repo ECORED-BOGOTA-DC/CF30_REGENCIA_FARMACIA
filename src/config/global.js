@@ -52,7 +52,7 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Utilidad de los sistemas de información de marketing',
+            titulo: 'Utilidad de los sistemas de información de <em>marketing</em>',
             hash: 't_3_1',
           },
           {
