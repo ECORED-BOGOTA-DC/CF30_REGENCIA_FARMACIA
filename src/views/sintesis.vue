@@ -5,10 +5,10 @@
     p.mb-5(data-aos="fade-right") La exhibición de los productos farmacéuticos busca satisfacer las necesidades de usuarios y clientes, ofreciendo una amplia gama de productos de bienestar. Además de medicamentos y dispositivos médicos, se ha incorporado el #[em marketing] farmacéutico para impulsar el crecimiento y sostenibilidad del negocio, atendiendo tanto al consumidor como a los intereses comerciales.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-10.mb-5(data-aos="fade-right")
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Muestra síntesis de exhibición de los productos farmacéuticos donde define productos y servicios, promoción de productos y servicios y sistemas de información")
-      .col-auto
+      .col-auto(data-aos="fade-left")
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
