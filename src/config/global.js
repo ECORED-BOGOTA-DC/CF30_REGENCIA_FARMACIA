@@ -241,14 +241,13 @@ export default {
             'Centro Industrial del Diseño y la Manufactura – Regional Santander',
         },
         {
-          nombre:
-            'Centro Industrial del Diseño y la Manufactura – Regional Santander',
+          nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de estilo',
           centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
         },
         {
           nombre: 'Nelly Parra Guarín',
-          cargo: 'Adecuación instruccional - 2023',
+          cargo: 'Adecuación instruccional',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -258,11 +257,6 @@ export default {
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
-        {
-          nombre: 'José Gabriel Ortíz Abella',
-          cargo: 'Corrector de estilo',
-          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
-        },
       ],
     },
     {
@@ -270,13 +264,13 @@ export default {
       autores: [
         {
           nombre: 'Adriana Marcela Suárez Eljure',
-          cargo: 'Diseño web-2023',
+          cargo: 'Diseño web',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
-          cargo: 'Desarrollo Fullstack-2023',
+          cargo: 'Desarrollo Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

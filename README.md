@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://github.com/ECORED-BOGOTA-DC/CF30_REGENCIA_FARMACIA](https://github.com/ECORED-BOGOTA-DC/CF30_REGENCIA_FARMACIA)
+[https://ecored-bogota-dc.github.io/CF30_REGENCIA_FARMACIA/#/](https://ecored-bogota-dc.github.io/CF30_REGENCIA_FARMACIA/#/)
 
 #
 
