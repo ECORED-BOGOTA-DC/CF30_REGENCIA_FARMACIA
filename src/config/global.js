@@ -5,7 +5,12 @@ export default {
       'En este componente formativo se abordan los conocimientos relacionados con la promoción comercial, para que los aprendices conozcan las herramientas necesarias para diseñar las estrategias de mercadeo y venta de los productos farmacéuticos teniendo presentes las características de estos y la normatividad legal vigente',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
